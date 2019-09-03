@@ -1,4 +1,5 @@
 @import url(fontawesome-all.min.css);
+@import url(academicons.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
 /*
@@ -2253,6 +2254,10 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+		}
+
+		.icon.ai:before {
+			font-family: 'Academicons';
 		}
 
 		.icon.major {
