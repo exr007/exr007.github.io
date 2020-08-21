@@ -118,6 +118,23 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+.visible-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.visible-hidden:focus {
+    clip: auto;
+    height: auto;
+    overflow: auto;
+    position: absolute;
+    width: auto;
+}
+
 /* Type */
 
 	body {
@@ -163,6 +180,16 @@ input, select, textarea {
 		transition: color 0.2s ease, border-bottom 0.2s ease;
 		text-decoration: none;
 		border-bottom: dotted 1px;
+		color: inherit;
+	}
+
+	a.icon {
+		-moz-transition: color 0.2s ease, border-bottom 0.2s ease;
+		-webkit-transition: color 0.2s ease, border-bottom 0.2s ease;
+		-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
+		transition: color 0.2s ease, border-bottom 0.2s ease;
+		text-decoration: none;
+		border-bottom: none;
 		color: inherit;
 	}
 
